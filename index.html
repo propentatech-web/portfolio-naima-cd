@@ -2,13 +2,118 @@
 <html lang="fr">
 <head>
   <meta charset="UTF-8">
-  <title>Portfolio - En construction</title>
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Salut Naima !</h1>
-  <p>Ton espace est pret. Il n'attend plus que toi.</p>
-  <p>C'est ici que tu vas construire ton portfolio, ligne par ligne, balise par balise.</p>
-  <p>Prends ton temps, reflechis a ce que tu veux montrer au monde, et commence a coder.</p>
-  <p>Tu as tout ce qu'il faut. Lance-toi !</p>
+  <header>
+    <div class="logo"><h3>CDN</h3></div>
+    <nav>
+      <ul>
+        <li><a href="#acceuil">acceuil</a></li>
+        <li><a href="#apropos">a propos</a></li>
+        <li><a href="#competences">competences</a></li>
+        <li><a href="#parcours">parcours</a></li>
+        <li><a href="#contact">contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <section id="acceuil">
+    <div class="text1">
+      <h4>ETUDIANT EN INFORMATIQUE</h4>
+        <h1>Naima</h1>
+        <h1><em>Chuangueu</em></h1>
+        <p>Passioner par la realisation de programme performant et de page web attractive.En route vers le developpement front-end</p>
+        <button>ME CONTACTER</button>
+    </div>
+    <div class="image">
+    </div>
+  </section>
+  <section  id="apropos">
+    <div class="text2">
+      <h1>qui suis-je ?</h1>
+      <p>je suis etudiante en premiere année, intéressée par le developpement web,<br> particulierement par la creation des sites web attractif.<br>Mon objectif est d'apporter une totale satisfaction <br>à tous ceux qui me feront confiance pour la confection de leurs sites web </p>
+    </div>
+    <div class="case">
+      <article class="propos">
+        <h2>1<sup>ere</sup></h2>
+        <p>ANNEE D'INFORMATIQUE</p>
+      </article>
+      <article class="propos">
+        <h2>3+</h2>
+        <p>TECHNOLOGIES MAITRISEES</p>
+      </article>
+      <article class="propos">
+        <p>ENVIE D'APPRENDRE</p>
+      </article>
+    </div>
+  </section>
+  <section id="competences">
+    <div>
+      <h1>ce que je sais faire</h1>
+    </div>
+    <div class="competences">
+      <article class="competence">
+        <h4>HTML</h4>
+        <p>structure semantique accessibilite,bonne pratique</p>
+      </article>
+      <article class="competence">
+        <h4>Git</h4>
+        <p>versionning branches,gestion de l'historique</p>
+      </article>
+      <article class="competence">
+        <h4>GitHub</h4>
+        <p>Collaboration,pull request,l'hebergement de projet</p>
+      </article>
+      <article class="competence">
+        <h4>Travail en equipe</h4>
+        <p>Communication,organisation,methodes agiles</p>
+      </article>
+      <article class="competence">
+        <h4>Resolution de problemes</h4>
+        <p>Analyse,decomposition,logique algorithmique</p>
+      </article>
+    </div>
+  </section>
+  <section id="parcours">
+    <h1>Mon chemin</h1>
+    <div class="chemin">
+      <article class="parcours">
+        <span>2025</span>
+        <p>DIPLOME</p>
+        <h4>baccalaureat scientifique</h4>
+        <p>Obtention du baccalaureat avec specialite scientifique,premier pas vers l'informatique</p>
+      </article>
+      <article class="parcours">
+        <p>FORMATION</p>
+        <h4>L1 INFORMATIQUE</h4>
+        <p>Premiere annee de licence informatique,initiation a l'algorithmique,aux langages et aux systemes</p>
+      </article>
+      <article class="parcours">
+        <p>EN COURS</p>
+        <h4>Formation en developpement web</h4>
+        <p>Apprentissage du HTML,CSS,et des bases du developpement front-end moderne</p>
+      </article>
+    </div>
+  </section>
+  <section id="contact">
+    <div class="contact">
+      <p>CONTACT</p>
+      <h1>Travaillons</h1>
+      <h1><em>ensemble</em></h1>
+      <p>Une question une idee de projet,ou simplement envie d'echanger? N'hesitez pas a m'ecrire</p>
+    </div>
+    <div class="formulaire ">
+      <form>
+        <label for="nom">NOM COMPLET</label><br>
+        <input type="text" name="nom" id="nom" placeholder="votre nom complet"><br>
+        <label for="email">ADRESSE EMAIL</label><br>
+        <input type="email" name="email" id="email" placeholder="votre@gmail.com"><br>
+        <label for="message">MESSAGE</label><br>
+        <textarea name="message" id="message" cols="30" row="50" placeholder="Bonjour naima je voulais..."></textarea><br>
+        <button type="submit">Envoyer le message</button>
+      </form>
+    </div>
+  </section>
 </body>
 </html>
