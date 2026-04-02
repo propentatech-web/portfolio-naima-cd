@@ -1,0 +1,158 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+}
+body{
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: blanchedalmond;
+    font-size: larger;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+    gap: 15px;
+}
+ul li a{
+    text-decoration: none;
+    color: brown;
+}
+ul li a:hover{
+    color: black;
+}
+#acceuil{
+    display: flex;
+    height: 100vh;
+    background-color: black;
+    color: antiquewhite;
+}
+.text1{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 100px;
+    gap: 30px;
+}
+.text1 h4{
+    color: brown;
+}
+.text1 em{
+    color: brown;
+}
+.text1 button{
+    size: 100px;
+    background-color: blanchedalmond;
+    color: brown;
+}
+.image{
+    flex: 1;
+}
+#apropos{
+    display: flex;
+    height: 100vh;
+}
+.text2{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+.text2 h1{
+    color: brown;
+}
+.case{
+    flex: 1;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    padding: 10px;
+    width: 100px;
+    color: brown;
+}
+.propos{
+    padding: 10px;
+    height: 100px;
+    background-color: blanchedalmond
+}
+#competences{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 100px;
+    background-color: black;
+    color: antiquewhite;
+}
+#competences h1{
+    color: brown;
+}
+.competences{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 30px;
+}
+.competence{
+    background-color: blanchedalmond;
+    border: 2px solid brown;
+    border-radius: 7px;
+    color: black;
+}
+#parcours{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+#parcours h1{
+    padding-left: 0px;
+    color: brown;
+}
+.chemin{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 30px;
+}
+.parcours{
+    background-color: blanchedalmond;
+    border: 1px solid ghostwhite;
+    color: black;
+}
+#contact{
+    height: 100vh;
+    background-color: black;
+    color: antiquewhite;
+    display: flex;
+}
+.contact{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 10px;
+}
+#contact h1{
+    color: brown;
+}
+.formulaire{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    height: 100vh;
+}
+input{
+    width: 500px;
+}
